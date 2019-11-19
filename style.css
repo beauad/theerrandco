@@ -66,6 +66,9 @@ a:link {
 
 /* Main Section */
 
+#main {
+}
+
 #logo {
     height: 700px;
     width: 100%;
@@ -75,7 +78,8 @@ a:link {
 
 #welcome {
     text-align: center;
-    padding: 20px 300px;
+    height: 10%;
+    padding: 2% 15%;
     
 }
 b {
