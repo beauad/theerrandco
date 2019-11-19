@@ -67,6 +67,7 @@ a:link {
 /* Main Section */
 
 #main {
+    
 }
 
 #logo {
@@ -84,4 +85,17 @@ a:link {
 }
 b {
     font-size: 30px;
+}
+
+/* Main Services Section */
+
+#services {
+    background-color: #0e2149
+}
+
+.service {
+    padding: 0% 2% 2% 2%;
+    color: white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
