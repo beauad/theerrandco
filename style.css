@@ -8,47 +8,42 @@ body {
     text-align: center;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+/* Adjust Flex Containers Here */
 
 /* Header Section */
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: fixed;
     z-index: 1;
     height: 120px;
     background-color: white;
-    align-items: center;
+    
 }
 
 header img {
     height: 100px;
     width: 300px;
     margin: 5px;
-    min-width: 300px;
 }
 
 nav {
-    text-align: right;
-    flex-grow: 2;
+    margin: 10px;
+
 }
 
-nav span {
+span {
     display: inline-block;
-    margin-right: 10px;
     background-color: #0e2149;
-    border-radius: 10px;
     font-size: 20px;
-    width: 10em;
-    height: 20%;
-    padding: 10px 1px;
-    text-align: center;
+    width: 150px;
+    padding: 10px;
     color: white;
     transition: background-color 1s ease-in-out;
+    border-radius: 10px;
     border: white solid 2px;
 }
 
@@ -67,17 +62,19 @@ a:link {
 /* Main Section */
 
 #main {
+    display: block;
+    justify-content: center;
     
 }
 
-#logo {
+.logo {
     height: 700px;
     width: 100%;
     background: url("../Images/Main\ Image.png") center no-repeat;
     background-size: 100%;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     height: 10%;
     padding: 2% 15%;
@@ -99,15 +96,9 @@ b {
     border: 2px solid white;
 }
 
-/* Media Changes */
-
 @media only screen and (max-width: 768px) {
+  # logo {
 
-    nav span {
-      display: none;
+  }
 
-    }
-
-      header img {
-        display: block;
 }
