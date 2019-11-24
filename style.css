@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    color: #0e2149;
+    color: black;
     background-color: white;
     font-size: 22px;
     text-align: center; 
@@ -69,7 +69,7 @@ a:link {
 
 .main {
     display: block;
-    justify-content: center;
+    align-content: center;
     
 }
 
@@ -110,6 +110,31 @@ b {
 
 @media only screen and (max-width: 768px) {
     
+    header {
+        display: block;
+    }
+
+    header img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main {
+        margin-top: 30%;
+    }
+
+
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }  
+
+
     .services{
         display: block;
     }
@@ -120,13 +145,7 @@ b {
         font-size: 80%;
     }
 
+
     h2 {
         margin: 0;
     }
-
-@media only screen and (max-width: 250px) {
-
-    #control {
-        display: block
-    }
-}
