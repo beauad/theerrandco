@@ -49,12 +49,12 @@ span {
 nav span:hover {
     background-color: black;
 }
-a:visited {
+span.a:visited {
     color: white;
     text-decoration: none;
 }
 
-a:link {
+span.a:link {
     text-decoration: none;
 }
 
@@ -92,24 +92,55 @@ b {
 
 /* Main Services Section */
 
-i {
-    color: white;
-}
-
 .services {
     display: flex;
     background-color: #0e2149;
     width:100%;
 }
 
+i {
+    color: white;
+    margin: 4%;
+}
+
 .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
     width: 100%;
     min-width: 20%;
     color: white;
     border: 2px solid white;
-    text-align: c
 }
+
+a.link2 {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: solid 50px;
+    width: 150px;
+    padding: 10px;
+    transition: background-color 1s ease-in-out;
+    border-radius: 10px;
+}
+
+a.link2:hover {
+    background-color: rgb(121, 121, 121);
+}
+a.link2:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.link2:link {
+    text-decoration: none;
+
+}
+
+/* Footer */
+
 
 /* Responsive Screen*/
 
@@ -158,6 +189,10 @@ i {
     }
     b {
         font-size: 100%;
+    }
+
+    i {
+        color: white;
     }
 }
 
